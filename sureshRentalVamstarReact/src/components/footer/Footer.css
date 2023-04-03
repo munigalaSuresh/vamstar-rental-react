@@ -1,0 +1,32 @@
+.footer{
+  position: relative;
+  top:1300px;
+}
+.logoBlack {
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  line-height: 100%;
+  position: relative;
+  text-align: left;
+  color: black;
+}
+.items a{
+  color: black;
+}
+.footer-call{
+  color: black !important;
+  border-color: black !important;
+}
+.footer-desc{
+  position: absolute;
+  top: 130px;
+  left: 87px;
+  font-size: 12px;
+  padding-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+@media (max-width: 900px) {
+  .footer{
+      display: none !important;
+  }
+}
